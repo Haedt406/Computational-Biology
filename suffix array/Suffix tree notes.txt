@@ -1,0 +1,17 @@
+1. Build a generalized suffix tree T for S and S r (reverse of S) o(n) time to build
+
+2. Add data structure to answer LCP queries for T. o(n) time
+
+3. For i = 1...n, let k = LCP(Si, S^rn-i+1)
+
+4. for i =2 ..n, let k = LCP(si, Sr
+if k >0 
+
+
+Let S be a substring
+
+1. build a suffix tree for S.
+
+2. add "lowest common ancestor" data structure for T.
+
+LCP[i,j] = deptch (LCA[i,j])
